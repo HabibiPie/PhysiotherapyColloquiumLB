@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Colloquium Mock Test</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="hero">
+
+    <div class="hero-bg" id="heroBg"></div>
+
+    <svg class="deco" style="right:-30px; top:6%; width:150px; opacity:.5"
+      viewBox="0 0 60 360" fill="none" aria-hidden="true">
+      <g fill="#a5e6f5">
+        <rect x="14" y="0" width="32" height="22" rx="10" />
+        <rect x="12" y="30" width="36" height="24" rx="11" />
+        <rect x="10" y="62" width="40" height="26" rx="12" />
+        <rect x="8" y="96" width="44" height="28" rx="13" />
+        <rect x="6" y="132" width="48" height="30" rx="14" />
+        <rect x="6" y="170" width="48" height="30" rx="14" />
+        <rect x="8" y="208" width="44" height="30" rx="14" />
+        <rect x="10" y="246" width="40" height="28" rx="13" />
+        <rect x="14" y="282" width="32" height="26" rx="12" />
+        <rect x="18" y="316" width="24" height="24" rx="11" />
+      </g>
+    </svg>
+
+    <svg class="deco" style="left:-60px; bottom:12%; width:240px; opacity:.55"
+      viewBox="0 0 200 200" aria-hidden="true">
+      <circle cx="100" cy="100" r="96" fill="#d6f3fa" />
+      <circle cx="100" cy="100" r="60" fill="#bdebf6" />
+    </svg>
+
+    <div class="home-card">
+      <h1 id="siteTitle"></h1>
+      <p class="tag" id="siteTag"></p>
+
+      <div class="info" id="info">
+        <p><strong>The real exam:</strong> 50 MCQs in <span id="realMinutes"></span> minutes. Questions come from <span id="areaList"></span>.</p>
+
+        <!-- <p><strong>This mock test:</strong> <span id="poolText"></span> questions from all domains. You get <span id="examSize"></span> random ones, a <span id="mockMinutes"></span>-minute timer, and your score with the correct answers at the end.</p> -->
+      </div>
+
+      <div class="btns">
+        <a class="btn" href="test.html">Start mock test</a>
+        <!-- <a class="btn ghost" href="guide.html">Important notes</a> -->
+      </div>
+    </div>
+
+    <!-- <div class="credit" id="credit">
+      Created by <b id="creatorName"></b> · <span id="creatorRole"></span><br>
+      <span class="muted" id="creatorFocus"></span><br>
+      <a id="linkedinLink" href="#" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+    </div> -->
+
+  </div>
+
+  <!-- <button class="coffee" id="coffeeBtn" title="Free website, any support is much appreciated">☕ <span class="lbl">Buy me a </span>coffee</button>
+
+  <div class="modal hide" id="coffeeModal">
+    <div class="modal-card">
+      <h2>Thank you! ☕</h2>
+      <p class="muted">This website is <b>free</b>, no donation needed. But any support is much appreciated 💙<br>If you’d like to, you can send a transfer with <b>Whish Money</b> to:</p>
+      <span class="number" id="whishNumber"></span>
+      <div class="row">
+        <button class="btn small" id="copyBtn">Copy number</button>
+        <button class="btn small ghost" id="closeBtn">Close</button>
+      </div>
+    </div>
+  </div> -->
+
+  <script src="config.js"></script>
+  <script src="questions.js"></script>
+  <script src="common.js"></script>
+  <script src="home.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mock Test</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="quiz">
+    <div class="topbar">
+      <a class="btn small ghost" id="homeLink" href="index.html">← Home</a>
+
+      <span class="timer" id="clock"></span>
+      <span class="muted" id="answered"></span>
+    </div>
+
+    <div class="card score-card hide" id="summary">
+      <div class="score" id="scoreText"></div>
+      <div class="muted" id="percentText"></div>
+      <p class="score-msg" id="scoreMessage"></p>
+
+      <div class="row">
+        <button class="btn small" id="againBtn">New random test</button>
+        <button class="btn small ghost" id="wrongBtn">Show wrong answers only</button>
+      </div>
+    </div>
+
+    <div id="quizBody"></div>
+  </div>
+
+  <script src="config.js"></script>
+  <script src="questions.js"></script>
+  <script src="common.js"></script>
+  <script src="test.js"></script>
+
+</body>
+</html>

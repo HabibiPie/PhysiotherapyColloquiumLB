@@ -1,0 +1,9 @@
+Copyright (c) 2026 Qasem Ahmad
+
+All rights reserved.
+
+This project, including its source code, design, and original materials, may not be copied, modified, redistributed, or used commercially without prior written permission from the copyright holder.
+
+Permission is granted to access and use the published website for personal educational and examination preparation purposes.
+
+This project is an independent educational resource and is not affiliated with any official examination authority.
